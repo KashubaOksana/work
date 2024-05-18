@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95cce86a-2620-4c27-9187-744591032e69" name="Changes" comment="First commit" />
+    <list default="true" id="95cce86a-2620-4c27-9187-744591032e69" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/article_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/articles_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/fotorama.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/test_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/tests_urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/mysite/app_blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/mysite/app_blog/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/mysite/app_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/mysite/app_blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mysite/mysite/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -54,6 +69,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Python.settings.executor&quot;: &quot;Run&quot;,
     &quot;Python.urls.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -178,7 +194,7 @@
       <workItem from="1715867950127" duration="1313000" />
       <workItem from="1715891400685" duration="7586000" />
       <workItem from="1715939503458" duration="7627000" />
-      <workItem from="1715957707383" duration="941000" />
+      <workItem from="1715957707383" duration="23334000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -236,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715958650738</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1715958987397</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715958987397</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +277,17 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -263,6 +298,8 @@
     <MESSAGE value="fixup! commit messege" />
     <MESSAGE value="First commit&#10;First commit" />
     <MESSAGE value="First commit&#10;First commit" />
+    <MESSAGE value="commit messege" />
+    <MESSAGE value="commit messege" />
     <MESSAGE value="First commit" />
     <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
