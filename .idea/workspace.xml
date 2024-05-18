@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95cce86a-2620-4c27-9187-744591032e69" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/article_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/articles_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/fotorama.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/test_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/tests_urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/mysite/app_blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/article_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/article_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/articles_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/articles_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/mysite/app_blog/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/mysite/app_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/mysite/app_blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mysite/app_blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mysite/mysite/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +21,7 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -67,33 +60,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.settings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.urls.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Rebasing master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/work/myblog/mysite/app_blog&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.settings.executor": "Run",
+    "Python.urls.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Rebasing master",
+    "last_opened_file_path": "D:/work/myblog/mysite/app_blog/static/js",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\myblog\mysite\app_blog\static\js" />
+      <recent name="D:\work\myblog\mysite\app_blog\static\css" />
       <recent name="D:\work\myblog\mysite\app_blog" />
     </key>
   </component>
@@ -194,7 +190,8 @@
       <workItem from="1715867950127" duration="1313000" />
       <workItem from="1715891400685" duration="7586000" />
       <workItem from="1715939503458" duration="7627000" />
-      <workItem from="1715957707383" duration="23334000" />
+      <workItem from="1715957707383" duration="23763000" />
+      <workItem from="1716042866160" duration="11975000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -260,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715958987397</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1716030705672</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716030705672</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
